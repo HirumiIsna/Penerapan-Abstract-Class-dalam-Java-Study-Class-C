@@ -41,5 +41,6 @@ public abstract class Kendaraan {
         return tersedia;
     }
 
-    abstract double hitungBiayaTambahan();
+    protected abstract double hitungBiayaTambahan();
 }
+
