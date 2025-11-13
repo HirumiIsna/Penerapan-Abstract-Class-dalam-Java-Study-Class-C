@@ -8,7 +8,7 @@ public class Mobil extends Kendaraan {
     }
 
     @Override
-    public double hitungBiayaTambahan() {
+    protected double hitungBiayaTambahan() {
         if(bensin){
             return getBiayaHarian() * 0.1;
         } else
@@ -21,3 +21,4 @@ public class Mobil extends Kendaraan {
         System.out.println("Jenis: Mobil, Bahan Bakar: " + (bensin ? "Bensin" : "Non-Bensin"));
     }
 }
+
