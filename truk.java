@@ -8,7 +8,7 @@ public class truk extends Kendaraan {
     }
 
     @Override
-    public double hitungBiayaTambahan() {
+    protected double hitungBiayaTambahan() {
         return this.muatanMaks * 50000;
     }
 
@@ -18,3 +18,4 @@ public class truk extends Kendaraan {
         System.out.println("Jenis: Truk, Muatan Maks: " + muatanMaks + " ton");
     }
 }
+
